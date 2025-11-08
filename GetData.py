@@ -14,7 +14,7 @@ params = {
 }
 
 
-print('test1')
+print('tedst1')
 r=requests.get(baseurl,headers=headerColle)
 print('test2')
 
