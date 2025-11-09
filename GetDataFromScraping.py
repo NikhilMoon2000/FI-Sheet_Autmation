@@ -121,7 +121,7 @@ def getallvaluesFromJson(data):
     df = pd.DataFrame([record])
 
     # Write to Excel
-    df.to_excel("GetDataOutput.xlsx", index=False, engine="xlsxwriter")
+    df.to_excel("GetDataOutput.xlsx", index=False)
 
 
     print("✅ Data successfully written to 'stock_data.xlsx'")
